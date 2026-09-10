@@ -1,12 +1,12 @@
 ansible_user: ec2-user
 ansible_password: DevOps321
-MONGODB_HOST: mongodb-dev.kcdevops.online
-CATALOGUE_HOST: catalogue-dev.kcdevops.online
-REDIS_HOST: redis-dev.kcdevops.online
-USER_HOST: user-dev.kcdevops.online
-CART_HOST: cart-dev.kcdevops.online
-MYSQL_HOST: mysql-dev.kcdevops.online
-SHIPPING_HOST: shipping-dev.kcdevops.online
-RABBITMQ_HOST: rabbitmq-dev.kcdevops.online
-PAYMENT_HOST: payment-dev.kcdevops.online
-FRONTEND_HOST: frontend-dev.kcdevops.online
+MONGODB_HOST: mongodb-"{{ env }}".kcdevops.online
+CATALOGUE_HOST: catalogue-"{{ env }}".kcdevops.online
+REDIS_HOST: redis-"{{ env }}".kcdevops.online
+USER_HOST: user-"{{ env }}".kcdevops.online
+CART_HOST: cart-"{{ env }}".kcdevops.online
+MYSQL_HOST: mysql-"{{ env }}".kcdevops.online
+SHIPPING_HOST: shipping-"{{ env }}".kcdevops.online
+RABBITMQ_HOST: rabbitmq-"{{ env }}".kcdevops.online
+PAYMENT_HOST: payment-"{{ env }}".kcdevops.online
+FRONTEND_HOST: frontend-"{{ env }}".kcdevops.online
